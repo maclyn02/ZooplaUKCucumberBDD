@@ -37,7 +37,7 @@ public class SearchHomeSteps {
     @Then("^Print prices of results in console$")
     public void print_prices_of_results_in_console()  {
         Assert.assertTrue(propSearchResults.getTitle().contains(location));
-        propSearchResults.printPrices();
+        //propSearchResults.printPrices();
     }
 
     @When("^user clicks 5th result$")
