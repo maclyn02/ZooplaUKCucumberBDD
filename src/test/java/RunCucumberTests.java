@@ -7,7 +7,8 @@ import org.junit.runner.RunWith;
         features = "./src/test/java/Features/",
         tags = "@Search",
         plugin = "html:target/CucumberHTMLReports/cucumber-html-report",
-        junit = "--step-notifications"
+        junit = "--step-notifications",
+        monochrome = true
 )
 public class RunCucumberTests {
 }
